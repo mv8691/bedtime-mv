@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Tomorrow Today - Journal Prompts"
-date: 2020-02-04 14:37:00
+title: "Forest - Visualisation"
+date: 2020-02-10 14:37:00
 file: "https://bedtime-rituals.s3-ap-southeast-2.amazonaws.com/003-Reframe-with-Gratitude.mp3"
-summary: Journal Prompts - Plan out tomorrow, today. Creating space for a peaceful sleep.
+summary: Visualisation - A walk in a forest
 duration: "05:15" #audio length in min
 length: "7576337" #filesize in byte
 explicit: "no" #other option is no

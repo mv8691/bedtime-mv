@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reframe with Gratitude - Journal Prompts"
-date: 2020-02-03 14:37:00
+date: 2020-02-14 14:37:00
 file: "https://bedtime-rituals.s3-ap-southeast-2.amazonaws.com/003-Reframe-with-Gratitude.mp3"
 summary: Journal Prompts - Consciously reframe experiences from the day with gratitude.
 duration: "05:15" #audio length in min

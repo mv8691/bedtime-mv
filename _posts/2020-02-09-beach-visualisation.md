@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Beach - Visualisation"
-date: 2020-02-08 14:37:00
+date: 2020-02-09 14:37:00
 file: "https://bedtime-rituals.s3-ap-southeast-2.amazonaws.com/003-Reframe-with-Gratitude.mp3"
 summary: Visualisation - On a beautiful beach with golden sand and clear blue water.
 duration: "05:15" #audio length in min

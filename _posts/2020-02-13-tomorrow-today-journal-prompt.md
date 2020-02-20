@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Be Present - Breathwork"
-date: 2020-02-06 14:37:00
+title: "Tomorrow Today - Journal Prompts"
+date: 2020-02-13 14:37:00
 file: "https://bedtime-rituals.s3-ap-southeast-2.amazonaws.com/003-Reframe-with-Gratitude.mp3"
-summary: Breathwork - Through breath awareness, become present in the moment.
+summary: Journal Prompts - Plan out tomorrow, today. Creating space for a peaceful sleep.
 duration: "05:15" #audio length in min
 length: "7576337" #filesize in byte
 explicit: "no" #other option is no

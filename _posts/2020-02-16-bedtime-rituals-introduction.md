@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bedtime Rituals - Introduction"
-date: 2020-02-01 14:37:00
+date: 2020-02-16 14:37:00
 file: "https://bedtime-rituals.s3-ap-southeast-2.amazonaws.com/001-Bedtime-Rituals-Introduction.mp3"
 summary: Guidance - Introduction to the Bedtime Rituals album by Mindful Voices.
 duration: "00:49" #audio length in min

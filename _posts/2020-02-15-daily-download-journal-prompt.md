@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Daily Download - Journal Prompts"
-date: 2020-02-02 14:37:00
+date: 2020-02-15 14:37:00
 file: "https://bedtime-rituals.s3-ap-southeast-2.amazonaws.com/002-Daily-Download.mp3"
 summary: Journal Prompts - Tap into a stream of consciousness to download your day
 duration: "11:22" #audio length in min

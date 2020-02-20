@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Forest - Visualisation"
-date: 2020-02-07 14:37:00
+title: "Be Present - Breathwork"
+date: 2020-02-11 14:37:00
 file: "https://bedtime-rituals.s3-ap-southeast-2.amazonaws.com/003-Reframe-with-Gratitude.mp3"
-summary: Visualisation - A walk in a forest
+summary: Breathwork - Through breath awareness, become present in the moment.
 duration: "05:15" #audio length in min
 length: "7576337" #filesize in byte
 explicit: "no" #other option is no

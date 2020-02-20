@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Find Alignment - Breathword"
-date: 2020-02-05 14:37:00
+date: 2020-02-12 14:37:00
 file: "https://bedtime-rituals.s3-ap-southeast-2.amazonaws.com/003-Reframe-with-Gratitude.mp3"
 summary: Breathwork - Find alignment in your body and mind.
 duration: "05:15" #audio length in min
