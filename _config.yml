@@ -3,7 +3,7 @@ site-title: Mindful Voices
 site-email: hello@mindfulvoices.co
 site-description:  Mindfulness Experiments
 baseurl: "" # the subpath of your site, e.g. /blog
-site-url: "https://mindfulvoices.co" # the base hostname & protocol for your site, e.g. http://example.com
+site-url: "https://bedtime-mv.now.sh" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mindfulvoices
 github_username:  
 
@@ -13,8 +13,7 @@ markdown: kramdown
 
 theme: 
 plugins:
-#  - jekyll-feed
-  - jekyll-sitemap
+  - jekyll-feed
 
 # Podcast settings
 
@@ -22,7 +21,7 @@ title:          Mindful Voices
 email:          hello@mindfulvoices.co
 description:    "Mindfulness meditations for seekers and skeptics alike."
 subtitle:       ""
-url:            "https://bedtime-mv.now.sh
+url:            "https://bedtime-mv.now.sh"
 lang:           "en"
 author:         "Mindful Voices"
 copyright:      "&#x2117; &amp; &#xA9; 2020"
