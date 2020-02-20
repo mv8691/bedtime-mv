@@ -1,0 +1,121 @@
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+// Clearfix
+@mixin clearfix {
+    &:before,
+    &:after {
+        content: " ";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+// Font families
+@mixin ff--sans-serif($font-weight: normal) {
+    font-family: 'Reckless Regular', serif;
+    font-weight: $font-weight;
+}
+
+@mixin ff--code {
+    font-family: 'aktiv-grotesk', serif;
+}
+
+// Font sizing
+@mixin fs--title {
+    line-height: 1.5;
+    font-size: 4.8rem; // 48px
+}
+
+@mixin fs--heading-1 {
+    line-height: 1.5;
+    font-size: 3.2rem; // 32px
+}
+
+@mixin fs--heading-2 {
+    line-height: 1.5;
+    font-size: 2.4rem; // 24px
+}
+
+@mixin fs--heading-3 {
+    line-height: 1.5;
+    font-size: 2rem; // 20px
+}
+
+@mixin fs--heading-4 {
+    line-height: 1.6;
+    font-size: 1.8rem; // 18px
+}
+
+@mixin fs--body {
+    line-height: 1.5;
+    font-size: 1.8rem; // 18px
+}
+
+@mixin fs--meta {
+    line-height: 1;
+    font-size: 1.8rem; // 18px
+}
+
+@mixin fs--caption {
+    line-height: 1;
+    font-size: 1.6rem; // 16px
+}
+
+@mixin fs--code {
+    font-size: 2.4rem;
+    line-height: 1.5;
+}
+
+// Visually hide content
+@mixin visually-hidden {
+    position: absolute;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+
+
+
+// Width of the content area
+$content-width: 800px;
+
+$small: 660px;
+
+$medium: 893px;
+$large: 1060px;
+$on-palm: 600px;
+$bp__sm: 630px;
+
+$on-phone: 600px;
+$on-ipad: 900px; 
+$on-laptop: 1100px;
+$macbook: 1460px;
+$imac: 1800px;
+$mobile-menu: 1099px;
+
+
+ // Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+

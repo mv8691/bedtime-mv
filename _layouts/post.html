@@ -1,0 +1,54 @@
+---
+layout: page
+---
+
+<article class="c-article">
+    
+    <div class="post">
+  <div class="site-container">
+    <div class="post-container">
+      <header class="post-header">
+        {% if page.image %}
+          <div class="post-header-image">
+            <img src="{{ page.image | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+
+          </div>
+          {% endif %}
+        <div class="title-card">
+          <h1 class="post-title">{{ page.title }}</h1>
+        </div>
+          <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+      </header>
+
+      <article class="post-content">
+        {{ content }}
+
+            <div class="next-chapter-block">
+              <div class="next-chapter-content">
+                <div class="right-link">
+                  
+                    {% if page.next %} 
+                    <h4>Next Post</h4>
+                        <h2>
+                          <a rel="next" href="{{ page.next.url }}">{{ page.next.title }} </a>
+                        </h2>
+                        <h3>
+                          <a rel="next" href="{{ page.next.url }}">Read the next post &rarr;</a>
+                        </h3>
+                    {% endif %}
+                  </div>
+                </div>
+            </div>
+      </article>
+        
+    </div>
+  </div>
+</div>
+
+    
+
+</article>
+
+
+

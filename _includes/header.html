@@ -1,0 +1,92 @@
+
+
+<header>
+  
+  
+
+  <div id="page-nav" class="site-header">
+
+  
+    <div class="alisha-nav">
+     
+
+      {% if page.url == "/" %}
+      
+      
+      <div class="site-header">
+      
+        <div class="site-logo-module">
+          <div class="site-logo">
+            <a href="/">
+              {% include logo.html %}
+            </a>
+          </div>
+        </div>
+      
+        <div class="alisha-nav">
+          <nav>
+      
+          </nav>
+        </div>
+      
+      
+      </div>
+      {% else %}
+
+      <div class="navbar-content">
+        
+        
+        <div class="navbar-left-block">
+          <div class="mobile-only">
+            <a href="#mobile-menu" class="navbar-link">Menu</a>
+          </div>
+          <div class="navbar-link-wrapper mobile-vanish">
+            <a href="/shop" class="navbar-link" {% if page.url == "/shop" %} class="active-link navbar-link" {% endif %}>Shop</a>
+          </div>
+          <div class="navbar-link-wrapper mobile-vanish">
+            <a href="/about" class="navbar-link" {% if page.url == "/about" %} class="active-link navbar-link" {% endif %}>About</a>
+          </div>
+          <div class="navbar-link-wrapper mobile-vanish">
+            <a href="/questions/ordering" class="navbar-link" {% if page.url == "/questions/ordering" %} class="active-link navbar-link"
+              {% endif %}>Questions</a>
+          </div>
+          
+        </div>
+        
+        <div>
+          <div id="mv">
+            
+          <div class="site-logo">
+            <a href="/">
+              {% include logo.html %}
+            </a>
+          </div>
+        </div>
+        </div>
+        <div class="navbar-right-block">
+          <div class="navbar-link-wrapper mobile-vanish">
+            <a href="/podcast" class="navbar-link" {% if page.url == "/podcast" %} class="active-link navbar-link" {% endif %}>Podcast</a>
+          </div>
+          <div class="navbar-link-wrapper mobile-vanish">
+            <a href="/contact" class="navbar-link" {% if page.url == "/contact" %} class="active-link navbar-link"
+              {% endif %}>Contact</a>
+          </div>
+          <div class="mobile-only">
+            <a href="/shop" class="navbar-link">Shop</a>
+          </div>
+        </div>
+      </div>
+      
+      {% endif %}
+
+    </div>
+
+    
+  </div>
+
+
+
+
+
+</header>
+

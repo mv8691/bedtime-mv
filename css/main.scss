@@ -1,0 +1,61 @@
+---
+# Main scss file
+---
+@charset "utf-8";
+
+
+
+
+@font-face {
+    font-family: 'DG Special';
+    src:url('/assets/fonts/DG-Wide.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'Gotham Light';
+    src:url('/assets/fonts/Gotham-Light.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src:url('/assets/fonts/Gotham-Book.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Reckless Light';
+    src:url('/assets/fonts/RecklessTRIAL-Light.otf') format('opentype'),
+}
+
+@font-face {
+    font-family: 'Reckless Regular';
+    src:url('/assets/fonts/RecklessTRIAL-Regular.otf') format('opentype'),
+}
+
+ @import url("https://use.typekit.net/fvj2hdr.css");
+
+
+// Helpers
+@import
+    'helpers/mixins',
+    'helpers/variables';
+
+// Base
+@import
+    'base/reset';
+
+// Utilities
+@import
+    'utilities/layout',
+    'utilities/separator';
+
+// Components
+@import
+    'components/page',
+    'components/article',
+    'components/tag',
+    'components/archives';
+
+// Vendor
+@import
+    'vendor/highlight';
+

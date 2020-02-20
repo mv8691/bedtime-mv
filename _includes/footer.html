@@ -1,0 +1,158 @@
+{% if page.url == "/" %}
+
+
+{% else %}
+
+
+
+<div class="mv-footer">
+	<hr>
+	
+	<a href="/">
+	<div id="mobile-menu"><div class="footer-logo">
+		{% include logo.html %}
+	</div> <span class="arrow-wrapper"><a href="#mv" class="arrow-up">
+		{% include top-arrow.html %}
+		
+	</a></span>
+	<div class="grid-block">
+		<div class="proof-container">
+
+			<h3>Products</h3>
+			<ul>
+				
+				<li>
+					<a href="/products/bedtime-rituals">Bedtime Rituals</a>
+				</li>
+				<li>
+					<a href="/products/nighttime-nidras">Night-time Nidras</a>
+				</li>
+				<li>
+					<a href="/products/good-nights-sleep">Good Night's Sleep</a>
+				</li>
+				<li>
+					<a href="/shop">Shop All</a>
+				</li>
+			</ul>
+
+
+		</div>
+
+		<div class="proof-container">
+		
+			<h3>Explore</h3>
+			<ul>
+				<li>
+					<a href="/about">About</a>
+				</li>
+				<li>
+					<a href="/podcast">Podcast</a>
+				</li>
+				<li>
+					<a href="/questions/ordering">Questions</a>
+				</li>
+				<li>
+					<a href="/contact">Contact</a>
+				</li>
+			</ul>
+		
+		
+		</div>
+
+		<div class="proof-container">
+
+			<h3>Questions</h3>
+			<ul>
+				<li>
+					<a href="/questions/ordering">Ordering</a>
+				</li>
+				<li>
+					<a href="/questions/delivery">Delivery</a>
+				</li>
+				<li>
+					<a href="/questions/listening">Listening</a>
+				</li>
+			</ul>
+
+
+		</div>
+
+		<div class="proof-container chat-chat">
+
+			<h3>Chat</h3>
+			<ul>
+				<li>
+					Email <a target="_self" href="mailto:hello@mindfulvoices.co" rel="noopener">hello@mindfulvoices.co</a>
+				</li>
+				<li>
+					WhatsApp <a href="https://wa.me/64221611704">+64-22-161-1704</a>
+				</li>
+				<li>
+					FB Messenger <a href="https://m.me/mindfulvoices" target=”_blank”>fb.me/mindfulvoices</a>
+				</li>
+				<li>
+					Instagram DM <a href="https://www.instagram.com/mindfulvoices/" target=”_blank”>@MindfulVoices</a>
+				</li>
+			</ul>
+
+
+		</div>
+
+
+	</div>
+
+	<div class="footer-social">
+		<ul>
+			<li>
+				<a href="https://www.instagram.com/mindfulvoices/" target=”_blank”>
+					{% include social-icon.html icon="Instagram" %}
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/mindfulvoices" target=”_blank”>
+				  {% include social-icon.html icon="Twitter" %}
+				</a>
+			</li>
+			<li>
+				<a href="https://facebook.com/mindfulvoices" target=”_blank”>
+					{% include social-icon.html icon="Facebook" %}
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="alishas-details">
+		{% include flag.svg %} All prices in $USD <a href="https://alisha.co" target=”_blank” class="alisha-dot">Site by alisha.co</a>
+	</div>
+	
+
+	<div class="footer-tiny-info">
+		<div class="company-column">
+			<h4>© 2020 Mindful Voices Limited. All rights reserved.</h4>
+		</div>
+		<div class="legal-links">
+			<ul>
+				<li>
+					<a href="/terms-and-conditions">Terms of Service</a>
+				</li>
+				<li>
+					<a href="/privacy-policy">Privacy Policy</a>
+				</li>
+				<li>
+					<a href="/refund-policy">Refund Policy</a>
+				</li>
+				
+			</ul>
+		</div>
+		
+	</div>
+</div>
+
+{% endif %}
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]'), {
+			speed: 1200,
+			easing: 'easeOutCubic'
+	});
+</script>
