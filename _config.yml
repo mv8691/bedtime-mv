@@ -13,7 +13,7 @@ markdown: kramdown
 
 theme: 
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-sitemap
 
 # Podcast settings
