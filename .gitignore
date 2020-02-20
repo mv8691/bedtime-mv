@@ -1,8 +1,0 @@
-_site
-public
-.sass-cache
-.jekyll-metadata
-.env
-.env.build
-
-.now
