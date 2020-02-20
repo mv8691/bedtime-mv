@@ -3,7 +3,7 @@ site-title: Mindful Voices
 site-email: hello@mindfulvoices.co
 site-description:  Mindfulness Experiments
 baseurl: "" # the subpath of your site, e.g. /blog
-site-url: "https://feed.mindfulvoices.net" # the base hostname & protocol for your site, e.g. http://example.com
+site-url: "https://mindfulvoices.co" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mindfulvoices
 github_username:  
 
@@ -22,7 +22,7 @@ title:          Mindful Voices
 email:          hello@mindfulvoices.co
 description:    "Mindfulness meditations for seekers and skeptics alike."
 subtitle:       ""
-url:            "https://feed.mindfulvoices.net"
+url:            "https://bedtime-mv.now.sh
 lang:           "en"
 author:         "Mindful Voices"
 copyright:      "&#x2117; &amp; &#xA9; 2020"

@@ -7,7 +7,7 @@
 <channel>
 		<title>Mindful Voices—Bedtime Rituals</title>
 		<description>{{ site.description | xml_escape }}</description>
-		<link>{{ site.url }}</link>
+		<link>{{ site.site-url }}</link>
 		<language>{{ site.lang }}</language>
 		<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
 		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
